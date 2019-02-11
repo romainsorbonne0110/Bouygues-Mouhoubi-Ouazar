@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.romain.trombinoscope.DTO.Personne">
+    <ImageView
+        android:id="@+id/imageShow"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        tools:background="#AAA"
+        />
+    <TextView
+        android:id="@+id/nomShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_toRightOf="@+id/imageShow"
+        android:layout_alignTop="@+id/imageShow"
+        android:textStyle="bold"
+        tools:text="NOM"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/prenomShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_alignLeft="@+id/nom"
+        android:layout_below="@+id/nom"
+        tools:text="PRENOM"
+        />
+
+    </RelativeLayout>
+
